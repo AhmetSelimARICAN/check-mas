@@ -1,8 +1,7 @@
 # CHECK-MAS
 
 Çok ajanlı LLM sistemlerinde **prompt injection** ve buna bağlı yönlendirme saldırılarını engellemek için geliştirdiğim semantik güvenlik katmanı.
-
-Bitirme projem kapsamında hazırladım. Hem bir Python kütüphanesi (`checkmas/`) hem de bu kütüphaneyi farklı saldırı senaryoları altında test ettiğim akademik deneyleri (`research/`) içeriyor.
+Hem bir Python kütüphanesi (`checkmas/`) hem de bu kütüphaneyi farklı saldırı senaryoları altında test ettiğim akademik deneyleri (`research/`) içeriyor.
 
 ---
 
