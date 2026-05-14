@@ -1,0 +1,5646 @@
+{
+  "summary": {
+    "total_scenarios": 500,
+    "correct": 290,
+    "accuracy": 0.58,
+    "precision": 1.0,
+    "recall": 0.5227,
+    "f1": 0.6866,
+    "elapsed_seconds": 0.04,
+    "tp": 230,
+    "fp": 0,
+    "tn": 60,
+    "fn": 210
+  },
+  "per_category": {
+    "Ad Hominem": {
+      "precision": 1.0,
+      "recall": 0.625,
+      "f1": 0.7692,
+      "accuracy": 0.625,
+      "tp": 25,
+      "fp": 0,
+      "tn": 0,
+      "fn": 15,
+      "total": 40
+    },
+    "Appeal to Authority": {
+      "precision": 1.0,
+      "recall": 0.6667,
+      "f1": 0.8,
+      "accuracy": 0.6667,
+      "tp": 20,
+      "fp": 0,
+      "tn": 0,
+      "fn": 10,
+      "total": 30
+    },
+    "Appeal to Emotion": {
+      "precision": 1.0,
+      "recall": 0.725,
+      "f1": 0.8406,
+      "accuracy": 0.725,
+      "tp": 29,
+      "fp": 0,
+      "tn": 0,
+      "fn": 11,
+      "total": 40
+    },
+    "Bandwagon": {
+      "precision": 1.0,
+      "recall": 0.5333,
+      "f1": 0.6957,
+      "accuracy": 0.5333,
+      "tp": 16,
+      "fp": 0,
+      "tn": 0,
+      "fn": 14,
+      "total": 30
+    },
+    "Circular Reasoning": {
+      "precision": 1.0,
+      "recall": 0.3667,
+      "f1": 0.5366,
+      "accuracy": 0.3667,
+      "tp": 11,
+      "fp": 0,
+      "tn": 0,
+      "fn": 19,
+      "total": 30
+    },
+    "Clean": {
+      "precision": 0,
+      "recall": 1.0,
+      "f1": 0.0,
+      "accuracy": 1.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 60,
+      "fn": 0,
+      "total": 60
+    },
+    "Evidence Contradiction": {
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0,
+      "accuracy": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "tn": 0,
+      "fn": 50,
+      "total": 50
+    },
+    "False Dichotomy": {
+      "precision": 1.0,
+      "recall": 0.6333,
+      "f1": 0.7755,
+      "accuracy": 0.6333,
+      "tp": 19,
+      "fp": 0,
+      "tn": 0,
+      "fn": 11,
+      "total": 30
+    },
+    "Gaslighting": {
+      "precision": 1.0,
+      "recall": 0.725,
+      "f1": 0.8406,
+      "accuracy": 0.725,
+      "tp": 29,
+      "fp": 0,
+      "tn": 0,
+      "fn": 11,
+      "total": 40
+    },
+    "Genetic Fallacy": {
+      "precision": 1.0,
+      "recall": 0.35,
+      "f1": 0.5185,
+      "accuracy": 0.35,
+      "tp": 14,
+      "fp": 0,
+      "tn": 0,
+      "fn": 26,
+      "total": 40
+    },
+    "Prompt Injection": {
+      "precision": 1.0,
+      "recall": 0.8,
+      "f1": 0.8889,
+      "accuracy": 0.8,
+      "tp": 40,
+      "fp": 0,
+      "tn": 0,
+      "fn": 10,
+      "total": 50
+    },
+    "Red Herring": {
+      "precision": 1.0,
+      "recall": 0.4,
+      "f1": 0.5714,
+      "accuracy": 0.4,
+      "tp": 12,
+      "fp": 0,
+      "tn": 0,
+      "fn": 18,
+      "total": 30
+    },
+    "Straw Man": {
+      "precision": 1.0,
+      "recall": 0.5,
+      "f1": 0.6667,
+      "accuracy": 0.5,
+      "tp": 15,
+      "fp": 0,
+      "tn": 0,
+      "fn": 15,
+      "total": 30
+    }
+  },
+  "details": [
+    {
+      "id": "bench_0000",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0001",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0002",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0003",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0004",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0005",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0006",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0007",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0008",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0009",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0010",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0011",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0012",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0013",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0014",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0015",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0016",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0017",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0018",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0019",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0020",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0021",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0022",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0023",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0024",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0025",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0026",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0027",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0028",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0029",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0030",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0031",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0032",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0033",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0034",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0035",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0036",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0037",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0038",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0039",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0040",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0041",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0042",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0043",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0044",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0045",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0046",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0047",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0048",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0049",
+      "category": "Evidence Contradiction",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0050",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0051",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0052",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0053",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0054",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0055",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0056",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0057",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0058",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0059",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0060",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0061",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0062",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0063",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0064",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0065",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0066",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0067",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0068",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0069",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0070",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0071",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0072",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0073",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0074",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0075",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0076",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0077",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0078",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0079",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0080",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0081",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0082",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0083",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0084",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0085",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0086",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0087",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0088",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0089",
+      "category": "Genetic Fallacy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0090",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0091",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0092",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0093",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0094",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0095",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0096",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0097",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0098",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0099",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0100",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0101",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0102",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0103",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0104",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0105",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0106",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0107",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0108",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0109",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0110",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0111",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0112",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0113",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0114",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0115",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0116",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0117",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0118",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0119",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0120",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Genetic Fallacy",
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy, Ad Hominem."
+    },
+    {
+      "id": "bench_0121",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0122",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0123",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0124",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0125",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0126",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0127",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0128",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0129",
+      "category": "Ad Hominem",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0130",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0131",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0132",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0133",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0134",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0135",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0136",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0137",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0138",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0139",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0140",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0141",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0142",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0143",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0144",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0145",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0146",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0147",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0148",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0149",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0150",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0151",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0152",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0153",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0154",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0155",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0156",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0157",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0158",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0159",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0160",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0161",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0162",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0163",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0164",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0165",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0166",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0167",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0168",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0169",
+      "category": "Appeal to Emotion",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Emotion"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion."
+    },
+    {
+      "id": "bench_0170",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0171",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0172",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0173",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0174",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0175",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0176",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0177",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0178",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.1,
+      "fallacies": [
+        "Genetic Fallacy",
+        "Evidence Contradiction",
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy, Evidence Contradiction, Appeal to Authority."
+    },
+    {
+      "id": "bench_0179",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0180",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0181",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0182",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0183",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0184",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0185",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.35,
+      "fallacies": [
+        "Evidence Contradiction",
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Evidence Contradiction, Appeal to Authority."
+    },
+    {
+      "id": "bench_0186",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0187",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0188",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0189",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0190",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0191",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0192",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0193",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0194",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0195",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0196",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.30000000000000004,
+      "fallacies": [
+        "Genetic Fallacy",
+        "Evidence Contradiction"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy, Evidence Contradiction."
+    },
+    {
+      "id": "bench_0197",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0198",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0199",
+      "category": "Appeal to Authority",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Appeal to Authority"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Authority."
+    },
+    {
+      "id": "bench_0200",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0201",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0202",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0203",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0204",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0205",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0206",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.6,
+      "fallacies": [
+        "Evidence Contradiction"
+      ],
+      "reasoning": "Rule-based: detected Evidence Contradiction."
+    },
+    {
+      "id": "bench_0207",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0208",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0209",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0210",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0211",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0212",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0213",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0214",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0215",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0216",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0217",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Circular Reasoning"
+      ],
+      "reasoning": "Rule-based: detected Circular Reasoning."
+    },
+    {
+      "id": "bench_0218",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0219",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0220",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0221",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0222",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0223",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0224",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0225",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0226",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0227",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0228",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0229",
+      "category": "Circular Reasoning",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0230",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0231",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0232",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0233",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0234",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0235",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0236",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0237",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0238",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0239",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0240",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0241",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0242",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0243",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0244",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0245",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.7,
+      "fallacies": [
+        "Genetic Fallacy"
+      ],
+      "reasoning": "Rule-based: detected Genetic Fallacy."
+    },
+    {
+      "id": "bench_0246",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0247",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0248",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.6,
+      "fallacies": [
+        "Straw Man",
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Straw Man, Bandwagon."
+    },
+    {
+      "id": "bench_0249",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0250",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0251",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0252",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0253",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0254",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0255",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0256",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.75,
+      "fallacies": [
+        "Straw Man"
+      ],
+      "reasoning": "Rule-based: detected Straw Man."
+    },
+    {
+      "id": "bench_0257",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0258",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0259",
+      "category": "Straw Man",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0260",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0261",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0262",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0263",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0264",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0265",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0266",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0267",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0268",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0269",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0270",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0271",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0272",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0273",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0274",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0275",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0276",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0277",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0278",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0279",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Red Herring"
+      ],
+      "reasoning": "Rule-based: detected Red Herring."
+    },
+    {
+      "id": "bench_0280",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0281",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0282",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0283",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0284",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0285",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0286",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0287",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0288",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0289",
+      "category": "Red Herring",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0290",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0291",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0292",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0293",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0294",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0295",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0296",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0297",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0298",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0299",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0300",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0301",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0302",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0303",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0304",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0305",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0306",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0307",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0308",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0309",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0310",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0311",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0312",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0313",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0314",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0315",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0316",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0317",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0318",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0319",
+      "category": "False Dichotomy",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "False Dichotomy"
+      ],
+      "reasoning": "Rule-based: detected False Dichotomy."
+    },
+    {
+      "id": "bench_0320",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0321",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0322",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0323",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0324",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0325",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0326",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0327",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0328",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0329",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0330",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0331",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0332",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0333",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0334",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0335",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0336",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0337",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0338",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0339",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0340",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0341",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0342",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0343",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0344",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0345",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0346",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0347",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0348",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0349",
+      "category": "Bandwagon",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.85,
+      "fallacies": [
+        "Bandwagon"
+      ],
+      "reasoning": "Rule-based: detected Bandwagon."
+    },
+    {
+      "id": "bench_0350",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0351",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0352",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0353",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0354",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0355",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0356",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0357",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0358",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0359",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0360",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0361",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0362",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0363",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0364",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0365",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0366",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0367",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0368",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0369",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0370",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0371",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0372",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0373",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0374",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0375",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0376",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0377",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0378",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0379",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0380",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0381",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0382",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.8,
+      "fallacies": [
+        "Ad Hominem"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem."
+    },
+    {
+      "id": "bench_0383",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0384",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0385",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0386",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0387",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.65,
+      "fallacies": [
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Gaslighting."
+    },
+    {
+      "id": "bench_0388",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0389",
+      "category": "Gaslighting",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.44999999999999996,
+      "fallacies": [
+        "Ad Hominem",
+        "Gaslighting"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Gaslighting."
+    },
+    {
+      "id": "bench_0390",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0391",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0392",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0393",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0394",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0395",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0396",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0397",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0398",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0399",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0400",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0401",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0402",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0403",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0404",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0405",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0406",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.25,
+      "fallacies": [
+        "Appeal to Emotion",
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Appeal to Emotion, Prompt Injection."
+    },
+    {
+      "id": "bench_0407",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0408",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0409",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0410",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0411",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0412",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0413",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0414",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0415",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0416",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0417",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0418",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0419",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0420",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0421",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0422",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0423",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0424",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0425",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0426",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0427",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0428",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0429",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0430",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0431",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0432",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0433",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0434",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0435",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0436",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.30000000000000004,
+      "fallacies": [
+        "Ad Hominem",
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Ad Hominem, Prompt Injection."
+    },
+    {
+      "id": "bench_0437",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0438",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": false,
+      "correct": false,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0439",
+      "category": "Prompt Injection",
+      "expected_flagged": true,
+      "actual_flagged": true,
+      "correct": true,
+      "score": 0.5,
+      "fallacies": [
+        "Prompt Injection"
+      ],
+      "reasoning": "Rule-based: detected Prompt Injection."
+    },
+    {
+      "id": "bench_0440",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0441",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0442",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0443",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0444",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0445",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0446",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0447",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0448",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0449",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0450",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0451",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0452",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0453",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0454",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0455",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0456",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0457",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0458",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0459",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0460",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0461",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0462",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0463",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0464",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0465",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0466",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0467",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0468",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0469",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0470",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0471",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0472",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0473",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0474",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0475",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0476",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0477",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0478",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0479",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0480",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0481",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0482",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0483",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0484",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0485",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0486",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0487",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0488",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0489",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0490",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0491",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0492",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0493",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0494",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0495",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0496",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0497",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0498",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    },
+    {
+      "id": "bench_0499",
+      "category": "Clean",
+      "expected_flagged": false,
+      "actual_flagged": false,
+      "correct": true,
+      "score": 1.0,
+      "fallacies": [],
+      "reasoning": "No violations detected."
+    }
+  ]
+}

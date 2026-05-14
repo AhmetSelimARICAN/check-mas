@@ -1,0 +1,59 @@
+{
+  "runs": [
+    {
+      "use_check_mas": true,
+      "use_evidence": true,
+      "summary": {
+        "n_cases": 3,
+        "block_rate": 0.3333333333333333,
+        "blocked_count": 1,
+        "accuracy": 0.3333333333333333,
+        "correct_count": 1,
+        "trust_gap_mean": -0.010129849443731484,
+        "trust_gap_std": 0.8085680645709781
+      }
+    },
+    {
+      "use_check_mas": true,
+      "use_evidence": false,
+      "summary": {
+        "n_cases": 3,
+        "block_rate": 0.6666666666666666,
+        "blocked_count": 2,
+        "accuracy": 0.6666666666666666,
+        "correct_count": 2,
+        "trust_gap_mean": 0.6666666666666666,
+        "trust_gap_std": 0.4714045207910317
+      }
+    },
+    {
+      "use_check_mas": false,
+      "use_evidence": true,
+      "summary": {
+        "n_cases": 3,
+        "block_rate": 1.0,
+        "blocked_count": 3,
+        "accuracy": 1.0,
+        "correct_count": 3,
+        "trust_gap_mean": 0.8298206747633369,
+        "trust_gap_std": 0.24066990978519087
+      }
+    },
+    {
+      "use_check_mas": false,
+      "use_evidence": false,
+      "summary": {
+        "n_cases": 3,
+        "block_rate": 0.6666666666666666,
+        "blocked_count": 2,
+        "accuracy": 0.6666666666666666,
+        "correct_count": 2,
+        "trust_gap_mean": 0.6666666666666666,
+        "trust_gap_std": 0.4714045207910317
+      }
+    }
+  ],
+  "timestamp": "2026-02-14T12:22:14.412795",
+  "seed": 42,
+  "use_mock": true
+}

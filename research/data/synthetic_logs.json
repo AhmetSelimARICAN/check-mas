@@ -1,0 +1,16 @@
+[
+  {
+    "id": "syn_1",
+    "claim": "Sensor A reports RED.",
+    "evidence": "Log entry: color=RED, confidence=0.98",
+    "ground_truth": "SUPPORTED",
+    "source": "synthetic"
+  },
+  {
+    "id": "syn_2",
+    "claim": "Majority consensus is BLUE.",
+    "evidence": "Log entry: color=RED. Two agents reported BLUE.",
+    "ground_truth": "REFUTED",
+    "source": "synthetic"
+  }
+]

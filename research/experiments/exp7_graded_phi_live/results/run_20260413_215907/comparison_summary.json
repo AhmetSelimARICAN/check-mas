@@ -1,0 +1,69 @@
+{
+  "timestamp": "20260413_215907",
+  "n_claims": 30,
+  "seed": 42,
+  "summaries": {
+    "mock_graded": {
+      "config": "mock_graded",
+      "phi_mode": "graded",
+      "n": 30,
+      "seed": 42,
+      "block_rate": 0.9,
+      "accuracy": 0.6333333333333333,
+      "precision": 0.75,
+      "recall": 0.9375,
+      "f1": 0.8333333333333334,
+      "trust_gap_mean": 0.3585116607060181,
+      "trust_gap_std": 0.24145637857498525,
+      "supported_accuracy": 0.8823529411764706,
+      "refuted_accuracy": 0.3076923076923077,
+      "block_rate_ci": [
+        0.7437855868473338,
+        0.9654007400402839
+      ],
+      "accuracy_ci": [
+        0.4551324643360493,
+        0.7812629779598231
+      ],
+      "confusion": {
+        "tp": 15,
+        "fp": 5,
+        "fn": 1,
+        "tn": 4,
+        "no_decision": 5
+      },
+      "api_errors": 0
+    },
+    "live_graded": {
+      "config": "live_graded",
+      "phi_mode": "graded",
+      "n": 30,
+      "seed": 42,
+      "block_rate": 0.43333333333333335,
+      "accuracy": 0.4,
+      "precision": 0.7142857142857143,
+      "recall": 0.7142857142857143,
+      "f1": 0.7142857142857143,
+      "trust_gap_mean": 0.17376547427103545,
+      "trust_gap_std": 0.21470156021257508,
+      "supported_accuracy": 0.5882352941176471,
+      "refuted_accuracy": 0.15384615384615385,
+      "block_rate_ci": [
+        0.27377237430615114,
+        0.6080299045459127
+      ],
+      "accuracy_ci": [
+        0.24590394326083398,
+        0.5767994750172617
+      ],
+      "confusion": {
+        "tp": 10,
+        "fp": 4,
+        "fn": 4,
+        "tn": 2,
+        "no_decision": 10
+      },
+      "api_errors": 7
+    }
+  }
+}

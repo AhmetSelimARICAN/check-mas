@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1453,
+    "claim": "The Roman Empire fell in 1453.",
+    "evidence": "The Western Roman Empire fell in 476 AD, marking the end of ancient times. The Eastern Roman Empire (Byzantine) fell in 1453.",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": 8080,
+    "claim": "Albert Einstein failed mathematics in school.",
+    "evidence": "Einstein excelled at mathematics from a young age, mastering differential and integral calculus by age 15.",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": 2024,
+    "claim": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+    "evidence": "The boiling point of water is 100 °C (212 °F) at standard pressure (sea level).",
+    "ground_truth": "SUPPORTED"
+  }
+]

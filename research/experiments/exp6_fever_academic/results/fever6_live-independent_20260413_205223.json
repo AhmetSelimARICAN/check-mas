@@ -1,0 +1,122 @@
+{
+  "config": {
+    "mode": "live-independent",
+    "seed": 42,
+    "n_claims": 5,
+    "use_check_mas": true,
+    "use_live": true,
+    "adversarial": false,
+    "threshold": 0.25,
+    "check_mas_penalty_strength": 0.7,
+    "dataset": "copenlu/fever_gold_evidence (validation split)"
+  },
+  "cases": [
+    {
+      "id": "fever_r_070",
+      "claim": "Southampton F.C. has never placed in the First Division.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": false,
+      "trust_alice": 0.4975124378109453,
+      "trust_mallory": 0.4975124378109453,
+      "trust_sybil": 0.004975124378109453,
+      "threshold": 0.4228855721393035,
+      "phi_alice": 1.0,
+      "phi_mallory": 1.0,
+      "phi_sybil": 0.1,
+      "final_decision": null,
+      "correct": false
+    },
+    {
+      "id": "fever_s_060",
+      "claim": "Edgar Wright is a person.",
+      "ground_truth": "SUPPORTED",
+      "mallory_blocked": true,
+      "trust_alice": 0.9803921568627453,
+      "trust_mallory": 0.009803921568627453,
+      "trust_sybil": 0.009803921568627453,
+      "threshold": 0.8333333333333335,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "fever_s_084",
+      "claim": "The album One of the Boys contains I Kissed a Girl.",
+      "ground_truth": "SUPPORTED",
+      "mallory_blocked": true,
+      "trust_alice": 0.9803921568627453,
+      "trust_mallory": 0.009803921568627453,
+      "trust_sybil": 0.009803921568627453,
+      "threshold": 0.8333333333333335,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": "SUPPORTED",
+      "correct": true
+    },
+    {
+      "id": "fever_s_062",
+      "claim": "Tennessee was the starting place of Paramore.",
+      "ground_truth": "SUPPORTED",
+      "mallory_blocked": false,
+      "trust_alice": 0.4975124378109453,
+      "trust_mallory": 0.4975124378109453,
+      "trust_sybil": 0.004975124378109453,
+      "threshold": 0.4228855721393035,
+      "phi_alice": 1.0,
+      "phi_mallory": 1.0,
+      "phi_sybil": 0.1,
+      "final_decision": null,
+      "correct": false
+    },
+    {
+      "id": "fever_r_031",
+      "claim": "Julianne Moore is not an actress.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": false,
+      "trust_alice": 0.33333333333333337,
+      "trust_mallory": 0.33333333333333337,
+      "trust_sybil": 0.33333333333333337,
+      "threshold": 0.2833333333333334,
+      "phi_alice": 1.0,
+      "phi_mallory": 1.0,
+      "phi_sybil": 1.0,
+      "final_decision": "SUPPORTED",
+      "correct": false
+    }
+  ],
+  "summary": {
+    "mode": "live-independent",
+    "n_cases": 5,
+    "seed": 42,
+    "block_rate": 0.4,
+    "blocked_count": 2,
+    "accuracy": 0.4,
+    "correct_count": 2,
+    "trust_gap_mean": 0.3882352941176471,
+    "trust_gap_std": 0.4754891853637935,
+    "supported_accuracy": 0.6666666666666666,
+    "refuted_accuracy": 0.0,
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1": 0.8,
+    "confusion": {
+      "tp": 2,
+      "fp": 1,
+      "fn": 0,
+      "tn": 0,
+      "no_decision": 2
+    },
+    "block_rate_ci": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "accuracy_ci": [
+      0.11761823115925325,
+      0.769280067791163
+    ],
+    "api_errors": 0
+  }
+}

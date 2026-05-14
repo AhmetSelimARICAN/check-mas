@@ -1,0 +1,10 @@
+# Copy this file to hf_token.txt and paste your Hugging Face access token
+# (read access is enough). Create one: https://huggingface.co/settings/tokens
+# You must also accept the license on:
+#   https://huggingface.co/meta-llama/Llama-Prompt-Guard-2-86M
+#
+# One line, no quotes:
+# hf_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#
+# Fine-grained token: in https://huggingface.co/settings/tokens under that token,
+# enable access to *public gated* repositories (or use a "classic" Read token).

@@ -1,0 +1,65 @@
+{
+  "timestamp": "2026-04-09T22:32:08.717236",
+  "seed": 42,
+  "fallacy_weights": {
+    "Evidence Contradiction": 0.4,
+    "Genetic Fallacy": 0.3,
+    "Ad Hominem": 0.2
+  },
+  "results": {
+    "naive__binary": {
+      "attack": "naive",
+      "phi_mode": "binary",
+      "n": 35,
+      "block_rate": 1.0,
+      "accuracy": 1.0,
+      "blocked": 35,
+      "correct": 35
+    },
+    "naive__graded": {
+      "attack": "naive",
+      "phi_mode": "graded",
+      "n": 35,
+      "block_rate": 1.0,
+      "accuracy": 1.0,
+      "blocked": 35,
+      "correct": 35
+    },
+    "evasive_0__binary": {
+      "attack": "evasive_0",
+      "phi_mode": "binary",
+      "n": 35,
+      "block_rate": 1.0,
+      "accuracy": 1.0,
+      "blocked": 35,
+      "correct": 35
+    },
+    "evasive_0__graded": {
+      "attack": "evasive_0",
+      "phi_mode": "graded",
+      "n": 35,
+      "block_rate": 1.0,
+      "accuracy": 1.0,
+      "blocked": 35,
+      "correct": 35
+    },
+    "evasive_1__binary": {
+      "attack": "evasive_1",
+      "phi_mode": "binary",
+      "n": 35,
+      "block_rate": 0.0,
+      "accuracy": 0.0,
+      "blocked": 0,
+      "correct": 0
+    },
+    "evasive_1__graded": {
+      "attack": "evasive_1",
+      "phi_mode": "graded",
+      "n": 35,
+      "block_rate": 0.0,
+      "accuracy": 0.0,
+      "blocked": 0,
+      "correct": 0
+    }
+  }
+}

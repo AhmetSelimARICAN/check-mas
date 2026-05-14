@@ -1,0 +1,9 @@
+{
+  "threshold": 0.25,
+  "check_mas_penalty_strength": 0.7,
+  "seed": 42,
+  "use_mock": false,
+  "use_check_mas": true,
+  "use_evidence": true,
+  "output_dir": "results"
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "fever_r_070",
+    "fever_id": 224373,
+    "claim": "Southampton F.C. has never placed in the First Division.",
+    "evidence": "Southampton_F.C. 9 The club has won the FA Cup once , in 1976 , and their highest-ever league finish was second in the First Division in 1983 -- 84 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_060",
+    "fever_id": 159706,
+    "claim": "Edgar Wright is a person.",
+    "evidence": "Edgar_Wright 6 Along with his friends Joe Cornish and Steven Moffat , he co-wrote Steven Spielberg 's The Adventures of Tintin : The Secret of the Unicorn .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_084",
+    "fever_id": 18565,
+    "claim": "The album One of the Boys contains I Kissed a Girl.",
+    "evidence": "I_Kissed_a_Girl 0 `` I Kissed a Girl '' is a song recorded by American singer Katy Perry for her second studio album , One of the Boys ( 2008 ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_062",
+    "fever_id": 85298,
+    "claim": "Tennessee was the starting place of Paramore.",
+    "evidence": "Paramore 0 Paramore is an American rock band from Franklin , Tennessee , formed in 2004 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_031",
+    "fever_id": 147831,
+    "claim": "Julianne Moore is not an actress.",
+    "evidence": "Julianne_Moore 0 Julianne Moore ( born Julie Anne Smith ; December 3 , 1960 ) is an American actress , prolific in films since the early 1990s .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_094",
+    "fever_id": 85196,
+    "claim": "Uranium-235 was discovered by a person who was born after August.",
+    "evidence": "Uranium-235 6 It was discovered in 1935 by Arthur Jeffrey Dempster .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_059",
+    "fever_id": 143387,
+    "claim": "Moonlight never premiered at the Telluride Film Festival.",
+    "evidence": "Moonlight_(2016_film) 6 Filmed in Miami , Florida , beginning in 2015 , Moonlight premiered at the Telluride Film Festival on September 2 , 2016 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_035",
+    "fever_id": 127540,
+    "claim": "Guillermo del Toro was born.",
+    "evidence": "Guillermo_del_Toro 0 Guillermo del Toro Gómez ( [ ɡiˈʝeɾmo ðel ˈtoɾo ] ; born October 9 , 1964 ) is a Mexican film director , screenwriter , producer , and novelist .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_064",
+    "fever_id": 125031,
+    "claim": "Mick Thomson was born outside Iowa.",
+    "evidence": "Mick_Thomson 1 Born in Des Moines , Iowa , he is best known as one of two guitarists in Slipknot , in which he is designated # 7 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_067",
+    "fever_id": 172471,
+    "claim": "Matteo Renzi has only ever been a plumber.",
+    "evidence": "Matteo_Renzi 3 Renzi served as President of the Province of Florence from 2004 to 2009 and as Mayor of Florence from 2009 to 2014 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_018",
+    "fever_id": 215506,
+    "claim": "Both hosts of Weekly Idol were born in 1983.",
+    "evidence": "Weekly_Idol 1 The show is hosted by comedian Jeong Hyeong-don and rapper Defconn .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_042",
+    "fever_id": 11002,
+    "claim": "The Colosseum is a tourist attraction in Rome.",
+    "evidence": "Colosseum 14 It is one of Rome 's most popular tourist attractions and also has links to the Roman Catholic Church , as each Good Friday the Pope leads a torchlit `` Way of the Cross '' procession that starts in the area around the Colosseum .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_079",
+    "fever_id": 201064,
+    "claim": "Regina King is an actress.",
+    "evidence": "Regina_King 1 She became known for her role as Brenda Jenkins on the NBC sitcom 227 ( 1985 -- 90 ) and a supporting role in the feature film Jerry Maguire , then for her roles in the television shows The Boondocks and Southland .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_002",
+    "fever_id": 98966,
+    "claim": "Justine Bateman was born in the 1950s.",
+    "evidence": "Justine_Bateman 0 Justine Tanya Bateman ( born February 19 , 1966 ) is an American writer , producer , and actress .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_095",
+    "fever_id": 52175,
+    "claim": "Magic Johnson did not play for the Lakers.",
+    "evidence": "Magic_Johnson 1 He played point guard for the Lakers for 13 seasons .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_013",
+    "fever_id": 175465,
+    "claim": "In 1789, Christian Gottlob Neefe died.",
+    "evidence": "Christian_Gottlob_Neefe 0 Christian Gottlob Neefe ( [ ˈneːfə ] ; 5 February 1748 -- 28 January 1798 ) was a German opera composer and conductor .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_026",
+    "fever_id": 92020,
+    "claim": "The Bahamas is a landlocked state.",
+    "evidence": "The_Bahamas 3 The designation of `` the Bahamas '' can refer either to the country or to the larger island chain that it shares with the Turks and Caicos Islands .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_058",
+    "fever_id": 134179,
+    "claim": "Damon Albarn has released something.",
+    "evidence": "Damon_Albarn 8 Subsequent albums such as Blur ( 1997 ) , 13 ( 1999 ) , Think Tank ( 2003 ) and The Magic Whip ( 2015 ) contained influences from lo-fi , electronic and hip hop music .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_054",
+    "fever_id": 150946,
+    "claim": "Tiber Oil Field is located in the Keathley Canyon block 102 of the Mexican sector of the Gulf of Mexico.",
+    "evidence": "Tiber_Oil_Field 0 The Tiber Oil Field is a deepwater offshore oil field located in the Keathley Canyon block 102 of the United States sector of the Gulf of Mexico .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_012",
+    "fever_id": 32815,
+    "claim": "Eric Church is a singer.",
+    "evidence": "Eric_Church 6 2011 's Chief , his first No. 1 album , gave him his first two No. 1 singles , `` Drink in My Hand '' and `` Springsteen , '' and the hits `` Homeboy , '' `` Creepin ' , '' and `` Like Jesus Does . ''",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_057",
+    "fever_id": 22507,
+    "claim": "The Good Wife produced a full 300 episode season.",
+    "evidence": "The_Good_Wife 12 With the current climate of how television shows are written and produced , The Good Wife is considered by several critics to be network television 's last great drama producing a full 22 episode season while other and future acclaimed shows are in favor of shorter 6 -- 12 episode seasons .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_065",
+    "fever_id": 90446,
+    "claim": "Homo sapiens are considered extinct on the IUCN Red List.",
+    "evidence": "Homo_sapiens 0 Homo sapiens ( Latin : `` wise man '' ) is the binomial nomenclature ( also known as the scientific name ) for the only extant human species .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_005",
+    "fever_id": 152898,
+    "claim": "Camden, New Jersey is the location of Cooper Medical School.",
+    "evidence": "Camden,_New_Jersey 40 The city is the home of Rutgers University -- Camden , which was founded as the South Jersey Law School in 1926 , and Cooper Medical School of Rowan University , which opened in 2012 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_030",
+    "fever_id": 168543,
+    "claim": "Rick Yune was on a tv series with Marco Polo.",
+    "evidence": "Rick_Yune 2 He was part of the main cast of the Netflix original series Marco Polo until the series was cancelled on December 12 , 2016 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_038",
+    "fever_id": 170946,
+    "claim": "Smriti Mandhana is an Indian woman.",
+    "evidence": "Smriti_Mandhana 0 Smriti Mandhana ( born 18 July 1996 ) is an Indian cricketer who plays for the Indian women 's cricket team .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_051",
+    "fever_id": 182445,
+    "claim": "Epistemology has nothing to do with understanding the justification of propositions and beliefs.",
+    "evidence": "Epistemology 3 Epistemology studies the nature of knowledge , justification , and the rationality of belief .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_008",
+    "fever_id": 154236,
+    "claim": "Shadowhunters premiered in July 2016.",
+    "evidence": "Shadowhunters 4 The show received a straight-to-series order on March 30 , 2015 , and premiered on January 12 , 2016 on Freeform .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_050",
+    "fever_id": 36849,
+    "claim": "Ann Richards wasn't a politician.",
+    "evidence": "Ann_Richards 2 Richards served as the 45th Governor of Texas from 1991 to 1995 and was defeated for re-election in 1994 by George W. Bush .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_077",
+    "fever_id": 83197,
+    "claim": "Martin Van Buren was exclusively unelected.",
+    "evidence": "Martin_Van_Buren 19 He was the first president to be born a United States citizen .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_023",
+    "fever_id": 31843,
+    "claim": "Stephen Colbert hosts talk shows.",
+    "evidence": "Stephen_Colbert 11 In 2005 , he left The Daily Show to host a spin-off series , The Colbert Report .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_027",
+    "fever_id": 34228,
+    "claim": "Eric Church is unable to write songs.",
+    "evidence": "Eric_Church 10 `` Talladega '' and `` Give Me Back My Hometown '' each reached number one on the Country Airplay chart .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_029",
+    "fever_id": 170417,
+    "claim": "Michael Vick is a former football player.",
+    "evidence": "Michael_Vick 14 He officially retired from professional football in 2017 after spending the entirety of the 2016 season in free agency .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_010",
+    "fever_id": 202930,
+    "claim": "Avenged Sevenfold is a statue of an American heavy metal band.",
+    "evidence": "Avenged_Sevenfold_(album) 5 The album has also been released on vinyl .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_040",
+    "fever_id": 80054,
+    "claim": "Saxony is the tenth smallest German state.",
+    "evidence": "Saxony 4 Saxony is the tenth largest of Germany 's sixteen states , with an area of 18,413 km2 , and the sixth most populous , with 4 million people .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_062",
+    "fever_id": 128332,
+    "claim": "Poldark has not been commissioned for a third series.",
+    "evidence": "Poldark_(2015_TV_series) 6 The BBC announced on 6 July 2016 , before series 2 had begun , that a third series had been commissioned .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_096",
+    "fever_id": 93333,
+    "claim": "Microbiologist research promotes information found in immunology and pathology.",
+    "evidence": "Microbiologist 14 Because microbiologists specialize in the investigation of microorganisms that typically cause infection , their research commonly promotes information found in immunology , pathology , and molecular biology .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_049",
+    "fever_id": 80001,
+    "claim": "Harris Jayaraj was born in January of 1986.",
+    "evidence": "Harris_Jayaraj 0 Harris Jayaraj ( born 8 January 1975 ) is an Indian film composer from Chennai , Tamil Nadu .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_003",
+    "fever_id": 26446,
+    "claim": "There is a biographical film called Jackie (2016 film).",
+    "evidence": "Jackie_(2016_film) 0 Jackie is a 2016 biographical drama film directed by Pablo Larraín and written by Noah Oppenheim .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_075",
+    "fever_id": 87483,
+    "claim": "Dakota Fanning is a dancer.",
+    "evidence": "Dakota_Fanning 0 Hannah Dakota Fanning ( born February 23 , 1994 ) is an American actress and model .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_035",
+    "fever_id": 199758,
+    "claim": "Tijuana is located in Brazil.",
+    "evidence": "Tijuana 0 Tijuana ( [ tiːˈwɑːnə ] ; [ tiˈxwana ] ) is the largest city in Baja California and on the Baja California Peninsula and center of the Tijuana metropolitan area , part of the international San Diego -- Tijuana metropolitan area .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_099",
+    "fever_id": 75794,
+    "claim": "The Saw franchise is a collection of TV shows.",
+    "evidence": "Saw_(franchise) 0 Saw is an American horror franchise distributed by Lions Gate Entertainment , produced by Twisted Pictures and created by two Australians , director James Wan and screenwriter Leigh Whannell , that consists of seven feature films and additional media .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_012",
+    "fever_id": 74365,
+    "claim": "Qui-Gon Jinn is a character in the Lord of the Rings franchise.",
+    "evidence": "Qui-Gon_Jinn 0 Qui-Gon Jinn is a fictional character in the Star Wars franchise , portrayed by Liam Neeson as the main protagonist of the 1999 film Star Wars : Episode I -- The Phantom Menace '' .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_061",
+    "fever_id": 205643,
+    "claim": "St. Anger is a restaurant.",
+    "evidence": "St._Anger 2 It is also the final collaboration between Metallica and producer Bob Rock , whose relationship began with the band 's fifth studio album , 1991 's Metallica .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_071",
+    "fever_id": 23075,
+    "claim": "Danger UXB is a movie.",
+    "evidence": "Danger_UXB 0 Danger UXB is a 1979 British ITV television series set during the Second World War developed by John Hawkesworth and starring Anthony Andrews as Lieutenant Brian Ash , an officer in the Royal Engineers .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_007",
+    "fever_id": 46464,
+    "claim": "Carlos Santana is a US president.",
+    "evidence": "Carlos_Santana 0 Carlos Santana ( born July 20 , 1947 ) is a Mexican and American musician who first became famous in the late 1960s and early 1970s with his band , Santana , which pioneered a fusion of rock and Latin American music .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_033",
+    "fever_id": 181115,
+    "claim": "So You Think You Can Dance premiered on July 20th, 2005.",
+    "evidence": "So_You_Think_You_Can_Dance_(U.S._TV_series) 2 The series premiered on July 20 , 2005 with over ten million viewers and ended the summer season as the top-rated show on television .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_100",
+    "fever_id": 83197,
+    "claim": "Martin Van Buren was exclusively unelected.",
+    "evidence": "Martin_Van_Buren 12 Jackson and Van Buren were elected , and after serving as governor for two months , Van Buren resigned to become Jackson 's Secretary of State .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_090",
+    "fever_id": 27307,
+    "claim": "Philomena was nominated.",
+    "evidence": "Philomena_(film) 8 The film was nominated in four categories at the 86th Academy Awards : Best Picture , Best Adapted Screenplay for Coogan and Pope , Best Actress for Dench , and Best Original Score for Desplat .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_044",
+    "fever_id": 167471,
+    "claim": "Cadet Kelly was an original work.",
+    "evidence": "Cadet_Kelly 0 Cadet Kelly is a 2002 Disney Channel Original Movie starring Hilary Duff .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_053",
+    "fever_id": 91028,
+    "claim": "Eric Church is an artist.",
+    "evidence": "Eric_Church 2 His debut album , 2006 's Sinners Like Me , '' produced three singles on the Billboard country charts including the top 20 hits `` How ` Bout You , '' `` Two Pink Lines , '' and `` Guys Like Me '' .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_022",
+    "fever_id": 122650,
+    "claim": "Craig David was nominated for an award.",
+    "evidence": "Craig_David 5 David has been nominated for thirteen Brit Awards : four times for Best British Male , and twice received a Grammy Award nomination for Best Male Pop Vocal Performance .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_046",
+    "fever_id": 128723,
+    "claim": "Underdog features the voice talents of Amy Adams as a lead role.",
+    "evidence": "Underdog_(film) 1 Directed by Frederik Du Chau and written by Joe Piscatella , Adam Rifkin , and Craig A. Williams , the film stars Jim Belushi , Peter Dinklage , John Slattery , and Patrick Warburton with the voice talents of Jason Lee , Amy Adams , and Brad Garrett .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_094",
+    "fever_id": 86143,
+    "claim": "Connie Nielsen is an actress.",
+    "evidence": "Connie_Nielsen 3 She is set to play Queen Hippolyta in the upcoming 2017 film Wonder Woman .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_066",
+    "fever_id": 127956,
+    "claim": "Pearl Jam plays music.",
+    "evidence": "Pearl_Jam 0 Pearl Jam is an American rock band formed in Seattle , Washington , in 1990 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_019",
+    "fever_id": 19543,
+    "claim": "X-Men: Apocalypse's story was worked on by multiple people.",
+    "evidence": "X-Men-COLON-_Apocalypse 2 Directed by Bryan Singer , with a screenplay by Simon Kinberg from a story conceived by Singer , Kinberg , Michael Dougherty and Dan Harris , the film stars James McAvoy , Michael Fassbender , Jennifer Lawrence , Oscar Isaac , Nicholas Hoult , Rose Byrne , Tye Sheridan , Sophie Turner , Olivia Munn and Lucas Till .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_085",
+    "fever_id": 87486,
+    "claim": "Andrew Kevin Walker is only a dancer.",
+    "evidence": "Andrew_Kevin_Walker 0 Andrew Kevin Walker ( born August 14 , 1964 ) is an American BAFTA-nominated screenwriter .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_093",
+    "fever_id": 35575,
+    "claim": "Tim Roth was not born on May 14th, 1961.",
+    "evidence": "Tim_Roth 0 Timothy Simon Roth ( born 14 May 1961 ) is an English actor and director .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_086",
+    "fever_id": 175736,
+    "claim": "The Cry of the Owl is based on Patricia Highsmith's eighth movie.",
+    "evidence": "The_Cry_of_the_Owl_(2009_film) 0 The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_045",
+    "fever_id": 173492,
+    "claim": "Sancho Panza is a fictional character in a novel written by a Spanish writer born in 1616.",
+    "evidence": "Sancho_Panza 0 Sancho Panza [ ˈsantʃo ˈpanθa ] is a fictional character in the novel Don Quixote written by Spanish author Don Miguel de Cervantes Saavedra in 1605 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_007",
+    "fever_id": 117862,
+    "claim": "Humphrey Bogart does acting.",
+    "evidence": "Humphrey_Bogart 0 Humphrey DeForest Bogart ( [ ˈboʊgɑrt ] December 25 , 1899January 14 , 1957 ) was an American screen and stage actor whose performances in 1940s films noir such as The Maltese Falcon , Casablanca , and The Big Sleep earned him status as a cultural icon .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_071",
+    "fever_id": 46333,
+    "claim": "Jennifer Lopez was married.",
+    "evidence": "Jennifer_Lopez 10 Following her second divorce , Lopez had a high-profile relationship with Ben Affleck , which strongly influenced her third studio album , This Is Me ... Then ( 2002 ) , while also overshadowing the release of Gigli ( 2003 ) , a critical and commercial failure .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_008",
+    "fever_id": 218368,
+    "claim": "The French Resistance committed acts of sabotage on electric power grids.",
+    "evidence": "French_Resistance 6 The Résistance also planned , coordinated , and executed acts of sabotage on the electrical power grid , transport facilities , and telecommunications networks .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_078",
+    "fever_id": 217672,
+    "claim": "The Pelican Brief is modeled off the novel of an American writer.",
+    "evidence": "The_Pelican_Brief_(film) 0 The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_018",
+    "fever_id": 181633,
+    "claim": "Mogadishu is a place.",
+    "evidence": "Mogadishu 0 Mogadishu ( [ ˌmɔːɡəˈdiːʃuː ] Muqdisho [ mʉqdɪʃɔ ] ; مقديشو [ maqadiːʃuː ] ) , known locally as Hamar , is the capital and most populous city of Somalia .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_088",
+    "fever_id": 193908,
+    "claim": "Bea Arthur hated animals.",
+    "evidence": "Bea_Arthur 0 Bea Arthur ( born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 ) was an American actress , comedian , singer , and animal rights activist .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_082",
+    "fever_id": 216597,
+    "claim": "An imaging technique is used to detect calcaneal spurs.",
+    "evidence": "Calcaneal_spur 1 Calcaneal spurs are typically detected by a radiographic examination ( commonly referred to as an `` x-ray '' ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_088",
+    "fever_id": 37250,
+    "claim": "Production took place in Sydney for the movie Australia (2008 film).",
+    "evidence": "Australia_(2008_film) 4 Production took place in Sydney , Darwin , Kununurra , and Bowen .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_047",
+    "fever_id": 217671,
+    "claim": "The Pelican Brief is based on a poem by John Grisham.",
+    "evidence": "The_Pelican_Brief_(film) 0 The Pelican Brief is a 1993 American legal political thriller based on the novel of the same name by John Grisham .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_048",
+    "fever_id": 147207,
+    "claim": "The Wallace mentions battles that killed thousands.",
+    "evidence": "The_Wallace_(poem) 0 The Actes and Deidis of the Illustre and Vallyeant Campioun Schir William Wallace , also known as The Wallace , is a long `` romantic biographical '' poem by the fifteenth-century Scottish makar of the name Blind Harry probably at some time in the decade before 1488 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_070",
+    "fever_id": 38587,
+    "claim": "The Concert for Bangladesh raised almost $250,000 for Bangladesh relief.",
+    "evidence": "The_Concert_for_Bangladesh 12 The concerts were attended by a total of 40,000 people , and raised close to US$ 250,000 for Bangladesh relief , which was administered by UNICEF .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_057",
+    "fever_id": 194354,
+    "claim": "An industrial rock band is responsible for the song Happiness in Slavery.",
+    "evidence": "Happiness_in_Slavery 0 `` Happiness in Slavery '' is a song by American industrial rock band Nine Inch Nails from their debut extended play ( EP ) , Broken ( 1992 ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_028",
+    "fever_id": 59067,
+    "claim": "Tatum O'Neal spent her whole life single.",
+    "evidence": "Tatum_O'Neal 6 In 1986 , O'Neal married professional tennis player John McEnroe , with whom she had three children .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_037",
+    "fever_id": 161578,
+    "claim": "Nicole Kidman stars in Baz Luhrmann's film Australia.",
+    "evidence": "Baz_Luhrmann 2 His 2008 film Australia is an epic historical romantic drama film starring Hugh Jackman and Nicole Kidman .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_048",
+    "fever_id": 23845,
+    "claim": "Martin Van Buren was Secretary of State.",
+    "evidence": "Martin_Van_Buren 1 A member of the Democratic Party , he served in a number of other senior roles , including eighth Vice President ( 1833 -- 37 ) and tenth Secretary of State ( 1829 -- 31 ) , both under Andrew Jackson .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_074",
+    "fever_id": 5177,
+    "claim": "The Armenian Genocide also fails to be known as the Armenian Holocaust.",
+    "evidence": "Armenian_Genocide 0 The Armenian Genocide ( Հայոց ցեղասպանություն , Hayots tseghaspanutyun ) , also known as the Armenian Holocaust , was the Ottoman government 's systematic extermination of 1.5 million Armenians , mostly Ottoman citizens within the Ottoman Empire and its successor state , the Republic of Turkey .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_032",
+    "fever_id": 50828,
+    "claim": "The Good Wife is not a drama.",
+    "evidence": "The_Good_Wife 12 With the current climate of how television shows are written and produced , The Good Wife is considered by several critics to be network television 's last great drama producing a full 22 episode season while other and future acclaimed shows are in favor of shorter 6 -- 12 episode seasons .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_045",
+    "fever_id": 228334,
+    "claim": "Island Records was founded in the late 1950s.",
+    "evidence": "Island_Records 1 It was founded by Chris Blackwell , Graeme Goodall and Leslie Kong in Jamaica in 1959 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_095",
+    "fever_id": 63056,
+    "claim": "Helmand Province is the location of Lashkargah.",
+    "evidence": "Helmand_Province 7 The province has a domestic airport ( Bost Airport ) , in the city of Lashkar Gah and heavily used by NATO-led forces .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_097",
+    "fever_id": 45109,
+    "claim": "Camden, New Jersey is a large human settlement.",
+    "evidence": "Camden,_New_Jersey 0 Camden is a city in Camden County , New Jersey .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_065",
+    "fever_id": 156950,
+    "claim": "Renato Balestra studied for a degree in engineering.",
+    "evidence": "Renato_Balestra 3 Born in Trieste , Renato Balestra comes from a family of architects and engineers and after a childhood steeped in the Mid-European cultural environment of the area , he too began studying for a degree in civil engineering .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_079",
+    "fever_id": 64373,
+    "claim": "Liverpool is in the United States.",
+    "evidence": "Liverpool 6 It became a borough in 1207 and a city in 1880 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_069",
+    "fever_id": 193873,
+    "claim": "Bea Arthur's date of birth was May 13th, 1922.",
+    "evidence": "Bea_Arthur 0 Bea Arthur ( born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 ) was an American actress , comedian , singer , and animal rights activist .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_089",
+    "fever_id": 186588,
+    "claim": "Asylum Records is an American record label.",
+    "evidence": "Asylum_Records 0 Asylum Records is an American record label founded in 1971 by David Geffen and partner Elliot Roberts .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_033",
+    "fever_id": 80909,
+    "claim": "Fred Armisen is a frog.",
+    "evidence": "Fred_Armisen 3 Armisen founded ThunderAnt.com , a website that features the comedy sketches created with Brownstein , and is the bandleader for the Late Night with Seth Meyers house band , The 8G Band .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_090",
+    "fever_id": 201375,
+    "claim": "Varsity Blues (film) is incapable of being filmed.",
+    "evidence": "Varsity_Blues_(film) 5 The film drew a domestic box office gross of $ 52 million against its estimated $ 16 million budget despite mixed critical reviews .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_021",
+    "fever_id": 113990,
+    "claim": "Chile is a food.",
+    "evidence": "Chile 9 The southern coast is a labyrinth of fjords , inlets , canals , twisting peninsulas , and islands .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_092",
+    "fever_id": 180733,
+    "claim": "Victoria (Dance Exponents song) was a single released in 1980.",
+    "evidence": "Victoria_(Dance_Exponents_song) 1 Released in 1982 it reached Number 6 on the New Zealand singles chart .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_002",
+    "fever_id": 80479,
+    "claim": "Aleister Crowley engaged in occultism.",
+    "evidence": "Aleister_Crowley 0 Aleister Crowley ( [ ˈkroʊli ] born Edward Alexander Crowley ; 12 October 1875 -- 1 December 1947 ) was an English occultist , ceremonial magician , poet , painter , novelist , and mountaineer .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_010",
+    "fever_id": 57351,
+    "claim": "Taylor Lautner has been a voice actor.",
+    "evidence": "Taylor_Lautner 4 Lautner later began his acting career , appearing in bit roles in comedy series such as The Bernie Mac Show ( 2003 ) and My Wife and Kids ( 2004 ) , before having voice roles in television series like What 's New , Scooby-Doo ?",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_099",
+    "fever_id": 53135,
+    "claim": "Arizona is in North America.",
+    "evidence": "Arizona 9 Arizona is the 48th state and last of the contiguous states to be admitted to the Union , achieving statehood on February 14 , 1912 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_059",
+    "fever_id": 186938,
+    "claim": "Cher was released by the record label Geffen Records.",
+    "evidence": "Cher_(1987_album) 0 Cher is the self-titled eighteenth studio album by American singer-actress Cher , released on November 10 , 1987 by Geffen Records .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_039",
+    "fever_id": 41266,
+    "claim": "Carlos Santana performs music.",
+    "evidence": "Carlos_Santana 1 The band 's sound featured his melodic , blues-based guitar lines set against Latin and African rhythms featuring percussion instruments such as timbales and congas not generally heard in rock music .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_083",
+    "fever_id": 134212,
+    "claim": "Jack Falahee is from America.",
+    "evidence": "Jack_Falahee 0 Jack Ryan Falahee ( born February 20 , 1989 ) is an American actor .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_001",
+    "fever_id": 77465,
+    "claim": "Winter's Tale was released in 1987.",
+    "evidence": "Winter's_Tale_(novel) 0 Winter 's Tale is a 1983 novel by Mark Helprin .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_017",
+    "fever_id": 92371,
+    "claim": "Pharrell Williams was a drummer in a band.",
+    "evidence": "Pharrell_Williams 4 He is the lead vocalist and drummer of the rock-funk-hip hop band N * E * R * D , that he formed with Hugo and childhood friend , Shay Haley .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_051",
+    "fever_id": 173135,
+    "claim": "Anne Sullivan was a teacher.",
+    "evidence": "Anne_Sullivan 0 Johanna Mansfield Sullivan Macy ( April 14 , 1866 -- October 20 , 1936 ) , better known as Anne Sullivan , was an American teacher , best known for being the instructor and lifelong companion of Helen Keller .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_053",
+    "fever_id": 124717,
+    "claim": "Paramore is from Texas.",
+    "evidence": "Paramore 0 Paramore is an American rock band from Franklin , Tennessee , formed in 2004 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_089",
+    "fever_id": 55815,
+    "claim": "Birthday Song (2 Chainz song) was produced by Kanye West.",
+    "evidence": "Birthday_Song_(2_Chainz_song) 1 The song , which features fellow American rapper Kanye West , was produced by Sonny Digital , West , BWheezy , Anthony Kilhoffer , Lifted and Mike Dean .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_081",
+    "fever_id": 70208,
+    "claim": "The Cincinnati Kid is a boy.",
+    "evidence": "The_Cincinnati_Kid 0 The Cincinnati Kid is a 1965 American drama film .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_092",
+    "fever_id": 73570,
+    "claim": "House is a dramatic work focused on medicine.",
+    "evidence": "House_(TV_series) 8 His flouting of hospital rules and procedures frequently leads him into conflict with his boss , hospital administrator and Dean of Medicine Dr. Lisa Cuddy ( Lisa Edelstein ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_086",
+    "fever_id": 7358,
+    "claim": "The final season of Lost was watched by an average of 11 million viewers per episode.",
+    "evidence": "Lost_(TV_series) 15 During its sixth and final season , the show averaged over 11 million U.S. viewers per episode .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_027",
+    "fever_id": 42213,
+    "claim": "John Deighton had no choice but to pursue other lines of work.",
+    "evidence": "John_Deighton 24 By 1864 , Deighton was forced to pursue other lines of work as he developed health problems ( swelling of the legs and feet ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_034",
+    "fever_id": 132716,
+    "claim": "TV Choice advertises TV broadcast programming listings.",
+    "evidence": "TV_Choice 1 It features weekly TV broadcast programming listings , running from Saturday to Friday , and goes on sale every Tuesday .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_030",
+    "fever_id": 160815,
+    "claim": "Juventus F.C. competes at Juventus Stadium in Lisbon, Portugal.",
+    "evidence": "Juventus_F.C. 1 The club is the second oldest of its kind still active in the country after Genoa 's football section ( 1893 ) , has traditionally worn a black and white striped home kit since 1903 and has played its home matches in several grounds , being the latest the 41,507-capacity Juventus Stadium .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_067",
+    "fever_id": 40922,
+    "claim": "Civilization IV is a game.",
+    "evidence": "Civilization_IV 5 Civilization IV uses the 4X empire-building model for turn-based strategy gameplay , in which the player 's main objective is to construct a civilization from limited initial resources .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_016",
+    "fever_id": 82292,
+    "claim": "The Mighty Ducks was only produced by Sony Pictures.",
+    "evidence": "The_Mighty_Ducks 1 It was produced by The Kerner Entertainment Company and Avnet -- Kerner Productions and distributed by Walt Disney Pictures .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_046",
+    "fever_id": 131006,
+    "claim": "You Belong with Me is a fan club.",
+    "evidence": "You_Belong_with_Me 7 The song won Favorite song at 2010 Kids ' Choice Awards , and received nominations for the Grammy Awards for Song of the Year , Record of the Year , and Best Female Pop Vocal Performance .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_085",
+    "fever_id": 131087,
+    "claim": "The NAACP Image Award for Outstanding Supporting Actor in a Drama Series has been won by Joe Morton.",
+    "evidence": "NAACP_Image_Award_for_Outstanding_Supporting_Actor_in_a_Drama_Series 1 The award was first given during the 1996 ceremony and since its conception , Omar Epps and Joe Morton hold the record for the most wins with three each .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_054",
+    "fever_id": 146399,
+    "claim": "Black Canary is a character in works published by an American comic book publisher.",
+    "evidence": "Black_Canary 0 Black Canary is a fictional superheroine in comic books published by DC Comics .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_011",
+    "fever_id": 140018,
+    "claim": "Over half of the University of Mississippi's students are Mississippian.",
+    "evidence": "University_of_Mississippi 4 About 55 percent of its undergraduates and 60 percent overall come from Mississippi , and 23 percent are minorities ; international students come from 90 nations .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_080",
+    "fever_id": 16084,
+    "claim": "The Road to El Dorado stars an actor.",
+    "evidence": "The_Road_to_El_Dorado 2 The film stars Kevin Kline , Kenneth Branagh , Armand Assante , Jim Cummings , Edward James Olmos , Tobin Bell and Rosie Perez .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_006",
+    "fever_id": 88473,
+    "claim": "Edward G. Robinson is a star in The Cincinnati Kid.",
+    "evidence": "The_Cincinnati_Kid 6 The film was directed by Norman Jewison and stars Steve McQueen in the title role and Edward G. Robinson as Howard .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_055",
+    "fever_id": 200396,
+    "claim": "Tom DeLonge spent his entire life pursuing his life-long dream of being a scuba diver.",
+    "evidence": "Tom_DeLonge 1 He is currently the guitarist and lead vocalist of the rock band Angels & Airwaves and was the guitarist , co-lead vocalist and co-founder of the American rock band Blink-182 from 1992 to 2015 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_075",
+    "fever_id": 77351,
+    "claim": "Buddhism includes kleshas.",
+    "evidence": "Kleshas_(Buddhism) 0 Kleshas ( [ क्लेश , kleśa ] किलेस kilesa ; ཉ ན མ ངས nyon mongs ) , in Buddhism , are mental states that cloud the mind and manifest in unwholesome actions .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_032",
+    "fever_id": 175737,
+    "claim": "The Cry of the Owl is based on a book by an American.",
+    "evidence": "The_Cry_of_the_Owl_(2009_film) 0 The Cry of the Owl is a 2009 thriller film based on Patricia Highsmith 's book of the same name .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_073",
+    "fever_id": 197342,
+    "claim": "Luke Cage was featured as a protagonist of a comic book.",
+    "evidence": "Luke_Cage 2 He was the first black superhero to be featured as the protagonist and title character of a comic book .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_084",
+    "fever_id": 110276,
+    "claim": "Stanley Williams is currently a college student in 2017.",
+    "evidence": "Stanley_Williams 0 Stanley `` Tookie '' Williams III ( December 29 , 1953 -- December 13 , 2005 ) was an American gang member and convicted murderer , who was part of the West Side Crips , a street gang which has its roots in South Central Los Angeles in 1969 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_036",
+    "fever_id": 196735,
+    "claim": "Marnie was directed by Whoopi Goldberg.",
+    "evidence": "Marnie_(film) 0 Marnie is a 1964 American psychological thriller film directed by Alfred Hitchcock .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_052",
+    "fever_id": 120140,
+    "claim": "The ocean fascinated Stephen Hillenburg when he was a child.",
+    "evidence": "Stephen_Hillenburg 4 Born in Lawton , Oklahoma and raised in Anaheim , California , Hillenburg became fascinated with the ocean as a child and also developed an interest in art .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_031",
+    "fever_id": 181982,
+    "claim": "Forceps are a tool.",
+    "evidence": "Forceps 0 Forceps ( plural forceps or forcipes ) are a handheld , hinged instrument used for grasping and holding objects .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_093",
+    "fever_id": 74410,
+    "claim": "Guillermo del Toro died in 1964.",
+    "evidence": "Guillermo_del_Toro 0 Guillermo del Toro Gómez ( [ ɡiˈʝeɾmo ðel ˈtoɾo ] ; born October 9 , 1964 ) is a Mexican film director , screenwriter , producer , and novelist .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_080",
+    "fever_id": 211776,
+    "claim": "Brick (film) is a mystery television show.",
+    "evidence": "Brick_(film) 0 Brick is a 2005 American neo-noir mystery film written and directed by Rian Johnson in his directorial debut , starring Joseph Gordon-Levitt .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_042",
+    "fever_id": 106513,
+    "claim": "The Bahamas is a cat.",
+    "evidence": "The_Bahamas 10 The islands were mostly deserted from 1513 until 1648 , when English colonists from Bermuda settled on the island of Eleuthera .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_077",
+    "fever_id": 59768,
+    "claim": "Luis Fonsi was born in 1978.",
+    "evidence": "Luis_Fonsi 0 Luis Alfonso Rodríguez López-Cepero , more commonly known by his stage name Luis Fonsi , ( born April 15 , 1978 ) is a Puerto Rican singer , songwriter and actor .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_009",
+    "fever_id": 53135,
+    "claim": "Arizona is in North America.",
+    "evidence": "Arizona 16 Northern Arizona features forests of pine , Douglas fir , and spruce trees ; the Colorado Plateau ; some mountain ranges ( such as the San Francisco Mountains ) ; as well as large , deep canyons , with much more moderate summer temperatures and significant winter snowfalls .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_060",
+    "fever_id": 83021,
+    "claim": "L.A. Reid hasn't served as a president.",
+    "evidence": "L.A._Reid 1 He has served as the chairman and CEO of Epic Records , a division of Sony Music Entertainment , the president and CEO of Arista Records , and the chairman and CEO of the Island Def Jam Music Group .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_044",
+    "fever_id": 70918,
+    "claim": "The Chrysler Building is shorter than the Empire State Building by 10 meters.",
+    "evidence": "Chrysler_Building 1 At 318.9 m , the structure was the world 's tallest building for 11 months before it was surpassed by the Empire State Building in 1931 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_021",
+    "fever_id": 216591,
+    "claim": "Calcaneal spurs are detected by using radiation.",
+    "evidence": "Calcaneal_spur 1 Calcaneal spurs are typically detected by a radiographic examination ( commonly referred to as an `` x-ray '' ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_034",
+    "fever_id": 128115,
+    "claim": "Jennifer Lopez only made non-studio albums.",
+    "evidence": "Jennifer_Lopez 14 Lopez gave birth to twins in 2008 , and after a relatively unsuccessful period , returned to prominence in 2011 with her appearance as a judge on American Idol and most commercially successful single to date , `` On the Floor '' , which is one of the best-selling singles of all time .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_041",
+    "fever_id": 185201,
+    "claim": "Home for the Holidays stars an American actor.",
+    "evidence": "Home_for_the_Holidays_(1995_film) 5 The film stars Holly Hunter , Robert Downey Jr. , Anne Bancroft , Charles Durning , Dylan McDermott , Geraldine Chaplin , Steve Guttenberg , Cynthia Stevenson , Claire Danes , Austin Pendleton and David Strathairn .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_029",
+    "fever_id": 201798,
+    "claim": "Live Through This is an anthology.",
+    "evidence": "Live_Through_This 3 Recorded in October 1993 , the album marked a divergence from the band 's unpolished hardcore aesthetics to more refined melodies and song structure , and features production by Sean Slade and Paul Q. Kolderie , with mixing by Scott Litt and J Mascis .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_023",
+    "fever_id": 8248,
+    "claim": "The Good Wife is a movie.",
+    "evidence": "The_Good_Wife 12 With the current climate of how television shows are written and produced , The Good Wife is considered by several critics to be network television 's last great drama producing a full 22 episode season while other and future acclaimed shows are in favor of shorter 6 -- 12 episode seasons .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_063",
+    "fever_id": 201798,
+    "claim": "Live Through This is an anthology.",
+    "evidence": "Live_Through_This 9 It has been considered as a contemporary classic , and was included in Rolling Stones list of `` 500 Greatest Albums of All Time '' .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_037",
+    "fever_id": 102932,
+    "claim": "Blue Jasmine is a television show.",
+    "evidence": "Blue_Jasmine 2 The film had a limited release on July 26 , 2013 , in New York and Los Angeles , before expanding wide on August 23 , 2013 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_081",
+    "fever_id": 26500,
+    "claim": "Liverpool was the town where The Beatles formed.",
+    "evidence": "Liverpool 13 The popularity of The Beatles and other groups from the Merseybeat era contributes to Liverpool 's status as a tourist destination .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_052",
+    "fever_id": 2317,
+    "claim": "Edison Machine Works was set up to produce cups.",
+    "evidence": "Edison_Machine_Works 0 The Edison Machine Works was a manufacturing company set up to produce dynamos , large electric motors , and other components of the electrical illumination system being built by Thomas A. Edison in New York City .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_015",
+    "fever_id": 79414,
+    "claim": "Shivaay was the first Bollywood film with Sayyeshaa.",
+    "evidence": "Sayyeshaa 1 After starring a Telugu film Akhil ( 2015 ) , she made her Bollywood debut in Ajay Devgn 's Shivaay ( 2016 ) .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_056",
+    "fever_id": 19543,
+    "claim": "X-Men: Apocalypse's story was worked on by multiple people.",
+    "evidence": "X-Men-COLON-_Apocalypse 6 The film was announced by Singer in December 2013 , with Kinberg , Dougherty , and Harris attached to develop the story .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_076",
+    "fever_id": 98305,
+    "claim": "Recovery features Rihanna.",
+    "evidence": "Recovery_(Eminem_album) 9 It spawned four singles ; `` Not Afraid '' , `` Love the Way You Lie '' , `` No Love '' , and `` Space Bound '' , with the former two both reaching number one on the Billboard Hot 100 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_076",
+    "fever_id": 95239,
+    "claim": "The Gifted is a murderer.",
+    "evidence": "The_Gifted_(TV_series) 6 Sean Teale , Jamie Chung , Coby Bell , Emma Dumont , Blair Redford , Natalie Alyn Lind , and Percy Hynes White also star in the show .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_040",
+    "fever_id": 66842,
+    "claim": "James Jones missed the playoffs once in 2007-2008.",
+    "evidence": "James_Jones_(basketball_player) 15 Jones has never been on an NBA team with a losing record and has only missed the playoffs once -- with the Trail Blazers in 2007 -- 08 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_056",
+    "fever_id": 174035,
+    "claim": "The Endless River is an album by a band formed in 1967.",
+    "evidence": "The_Endless_River 0 The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_043",
+    "fever_id": 87607,
+    "claim": "Brian Michael Bendis was turned down for every film job he applied to.",
+    "evidence": "Brian_Michael_Bendis 12 In addition to writing comics he has worked in television , video games and film , and began teaching writing at University of Oregon in Fall 2013 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_072",
+    "fever_id": 219298,
+    "claim": "Capsicum chinense is only a member of an animal family.",
+    "evidence": "Capsicum_chinense 0 Capsicum chinense , commonly known as the `` bonnet pepper '' is a species of chili pepper native to the Americas .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_074",
+    "fever_id": 98623,
+    "claim": "Duane Chapman has a full name.",
+    "evidence": "Duane_Chapman 0 Duane Lee `` Dog '' Chapman I. ( born February 2 , 1953 ) is an American bounty hunter and a former bail bondsman .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_017",
+    "fever_id": 94414,
+    "claim": "Rupert Murdoch is powerless over News Corp.",
+    "evidence": "Rupert_Murdoch 12 Murdoch 's News Corporation acquired Twentieth Century Fox ( 1985 ) , HarperCollins ( 1989 ) , and The Wall Street Journal ( 2007 ) .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_068",
+    "fever_id": 63373,
+    "claim": "Billie Joe Armstrong is an American musician.",
+    "evidence": "Billie_Joe_Armstrong 0 Billie Joe Armstrong ( born February 17 , 1972 ) is an American musician , singer , songwriter and actor who is best known as the lead vocalist , primary songwriter , and guitarist of the punk rock band Green Day , which he co-founded with Mike Dirnt .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_100",
+    "fever_id": 7262,
+    "claim": "Marvel vs. Capcom: Infinite is part of a series.",
+    "evidence": "Marvel_vs._Capcom-COLON-_Infinite 2 Like previous installments , players control characters from both the Marvel Comics and Capcom universes to compete in tag team battles .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_001",
+    "fever_id": 191445,
+    "claim": "Keith Urban was released by a record label.",
+    "evidence": "Keith_Urban_(1999_album) 0 Keith Urban ( also known as Keith Urban II ) is the second studio album by Australian country music artist Keith Urban , released on 19 October 1999 by Capitol Nashville .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_098",
+    "fever_id": 11345,
+    "claim": "How to Train Your Dragon 2 used scalable multicore processing.",
+    "evidence": "How_to_Train_Your_Dragon_2 11 How to Train Your Dragon 2 benefited from advances in animation technology and was DreamWorks ' first film to use scalable multicore processing and the studio 's new animation and lighting software .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_058",
+    "fever_id": 181880,
+    "claim": "Princess Mononoke is a Ghibli film from 2015.",
+    "evidence": "Princess_Mononoke 10 The film was released in Japan on July 12 , 1997 , and in the United States on October 29 , 1999 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_082",
+    "fever_id": 67426,
+    "claim": "Henry II of France suffered an untimely death in 1567.",
+    "evidence": "Henry_II_of_France 0 Henry II ( Henri II 31 March 1519 -- 10 July 1559 ) was a monarch of the House of Valois who ruled as King of France from 31 March 1547 until his death in 1559 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_003",
+    "fever_id": 132420,
+    "claim": "Kesha has only ever eaten hot dogs competitively for a living.",
+    "evidence": "Kesha 0 Kesha Rose Sebert ( [ ˈkɛʃə_roʊz_ˈsɛbərt ] ; born March 1 , 1987 ; formerly stylized as Ke $ ha ) is an American singer , songwriter , and rapper .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_055",
+    "fever_id": 6270,
+    "claim": "Angela Bassett received a bachelor of arts degree from Yale University.",
+    "evidence": "Angela_Bassett 6 Bassett began her film career in the mid-1980s , after earning a bachelor of arts degree from Yale University and a master of fine arts degree from drama school .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_024",
+    "fever_id": 52175,
+    "claim": "Magic Johnson did not play for the Lakers.",
+    "evidence": "Magic_Johnson 5 After protests from his fellow players , he retired again for four years , but returned in 1996 , at age 36 , to play 32 games for the Lakers before retiring for the third and final time .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_025",
+    "fever_id": 137335,
+    "claim": "Kerplunk, released in 1990, was Green Day's last album on the Lookout Records label.",
+    "evidence": "Kerplunk_(album) 0 Kerplunk is the second studio album by American punk rock band Green Day , released on December 17 , 1991 by Lookout !",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_098",
+    "fever_id": 212774,
+    "claim": "Harvard University is incapable of having a undergraduate college.",
+    "evidence": "Harvard_University 8 The undergraduate college became coeducational after its 1977 merger with Radcliffe College .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_043",
+    "fever_id": 57452,
+    "claim": "Colin Kaepernick became a starter in the National Football League.",
+    "evidence": "Colin_Kaepernick 5 Kaepernick began his professional career as a backup to Alex Smith , but became the 49ers ' starter in the middle of the 2012 season after Smith suffered a concussion .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_061",
+    "fever_id": 202754,
+    "claim": "Despicable Me 2 was produced for Universal Pictures.",
+    "evidence": "Despicable_Me_2 1 Produced by Illumination Entertainment for Universal Pictures , and animated by Illumination Mac Guff , the film is directed by Pierre Coffin and Chris Renaud , and written by Cinco Paul and Ken Daurio .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_024",
+    "fever_id": 79072,
+    "claim": "James VI and I was a major advocate of a single parliament for England.",
+    "evidence": "James_VI_and_I 10 He was a major advocate of a single parliament for England and Scotland .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_004",
+    "fever_id": 203622,
+    "claim": "Steven Spielberg co-wrote the 1974 crime film The Sugarland Express.",
+    "evidence": "The_Sugarland_Express 3 The Sugarland Express is a 1974 American crime drama film co-written and directed by Steven Spielberg in his theatrical feature film directorial debut .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_039",
+    "fever_id": 143060,
+    "claim": "French Indochina was officially known as Mario after 1947.",
+    "evidence": "French_Indochina 0 French Indochina ( previously spelled as French Indo-China ) ( Indochine française សហភ ពឥណ ឌ ច ន Đông Dương thuộc Pháp , [ ɗə̄wŋm jɨ̄əŋ tʰûək fǎp ] , frequently abbreviated to Đông Pháp ; ຝຣັ່ງແຫຼັມອິນດູຈີນ Cantonese : ) , officially known as the Indochinese Union ( Union indochinoise ) after 1887 and the Indochinese Federation ( Fédération indochinoise ) after 1947 , was a grouping of French colonial territories in Southeast Asia .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_013",
+    "fever_id": 192842,
+    "claim": "Ian Brennan was born in the 1970s.",
+    "evidence": "Ian_Brennan_(writer) 0 Ian Brennan ( born April 23 , 1978 ) is a television writer , actor , producer and director .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_083",
+    "fever_id": 106176,
+    "claim": "Ingushetia was established on March.",
+    "evidence": "Ingushetia 5 It was established on June 4 , 1992 after the Chechen-Ingush Autonomous Soviet Socialist Republic was split in two .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_041",
+    "fever_id": 102605,
+    "claim": "Daggering is a type of ballet.",
+    "evidence": "Daggering 2 This dance is not a traditional dance .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_014",
+    "fever_id": 128454,
+    "claim": "Awkward Black Girl is a web forum.",
+    "evidence": "Awkward_Black_Girl 6 The series received critical acclaim and won a Shorty Award for Best Web Series in 2012 .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_020",
+    "fever_id": 56523,
+    "claim": "Wildfang was founded.",
+    "evidence": "Wildfang 1 The company was founded in 2010 by Emma Mcilroy and Julia Parsley , who previously worked at Nike , Inc. in Portland , Oregon .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_078",
+    "fever_id": 194455,
+    "claim": "Tilda Swinton was born on November 5, 1860.",
+    "evidence": "Tilda_Swinton 0 Katherine Matilda `` Tilda '' Swinton ( born 5 November 1960 ) is a British actress , performance artist , model , and fashion muse , known for her roles in independent and Hollywood films .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_019",
+    "fever_id": 47645,
+    "claim": "The CONCACAF Champions League is organized by corpses.",
+    "evidence": "CONCACAF_Champions_League 0 The CONCACAF Champions League is an annual continental football club competition organized by CONCACAF for the top football clubs in North America , Central America and the Caribbean .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_072",
+    "fever_id": 11310,
+    "claim": "Papua comprised all of Indonesian New Guinea.",
+    "evidence": "Papua_(province) 0 Papua is the largest and easternmost province of Indonesia , comprising most of western New Guinea .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_047",
+    "fever_id": 200297,
+    "claim": "Richard Rutowski heavily revised the screenplay for Natural Born Killers.",
+    "evidence": "Natural_Born_Killers 5 The film is based on an original screenplay by Quentin Tarantino that was heavily revised by writer David Veloz , associate producer Richard Rutowski , and director Stone ; Tarantino received story credit .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_091",
+    "fever_id": 186602,
+    "claim": "Asylum Records is an American record label founded in 1990.",
+    "evidence": "Asylum_Records 0 Asylum Records is an American record label founded in 1971 by David Geffen and partner Elliot Roberts .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_036",
+    "fever_id": 40921,
+    "claim": "Civilization IV is a turn-based strategy game.",
+    "evidence": "Civilization_IV 0 Sid Meier 's Civilization IV is a turn-based strategy computer game and the fourth installment of the Civilization series .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_015",
+    "fever_id": 144809,
+    "claim": "AMGTV is a family-oriented comic book.",
+    "evidence": "AMGTV 5 AMGTV also syndicates several movie packages and music specials to stations outside their affiliate base .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_038",
+    "fever_id": 120210,
+    "claim": "Yara Shahidi is a dog.",
+    "evidence": "Yara_Shahidi 0 Yara Sayeh Shahidi شهیدی [ jɑːɾɑː sɑːje ʃæhiːdiː ] ) ( born February 10 , 2000 ) is an American actress and model .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_097",
+    "fever_id": 9075,
+    "claim": "Eric Church was born May 3, 1975.",
+    "evidence": "Eric_Church 0 Kenneth Eric Church ( born May 3 , 1977 ) is an American country music singer and songwriter .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_050",
+    "fever_id": 49706,
+    "claim": "Blue Jasmine has Sally Hawkins acting in it.",
+    "evidence": "Blue_Jasmine 1 The film tells the story of a rich Manhattan socialite ( played by Cate Blanchett ) who falls on hard times and has to move into her working class sister 's ( Sally Hawkins ) apartment in San Francisco .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_064",
+    "fever_id": 93082,
+    "claim": "Edmund H. North was an American citizen.",
+    "evidence": "Edmund_H._North 0 Edmund Hall North ( March 12 , 1911 -- August 28 , 1990 ) , was an American screenwriter who shared an Academy Award for Best Original Screenplay with Francis Ford Coppola in 1970 for their script for Patton .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_028",
+    "fever_id": 217217,
+    "claim": "There are people that can be classified as monks.",
+    "evidence": "Monk 1 A monk may be a person who decided to dedicate his life to serving all other living beings , or to be an ascetic who voluntarily chooses to leave mainstream society and live his or her life in prayer and contemplation .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_087",
+    "fever_id": 14939,
+    "claim": "Knocked Up is a film.",
+    "evidence": "Knocked_Up 0 Knocked Up is a 2007 American romantic comedy film written , directed , and co-produced by Judd Apatow , and starring Seth Rogen , Katherine Heigl , Paul Rudd , and Leslie Mann .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_004",
+    "fever_id": 205646,
+    "claim": "St. Anger is the second studio album by Metallica.",
+    "evidence": "St._Anger 1 It was the band 's last album released through Elektra , thus marking the end of the second-longest timespan between studio albums from Metallica , with nearly six years between the release of Reload and this album .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_016",
+    "fever_id": 189438,
+    "claim": "Yandex is a website.",
+    "evidence": "Yandex 1 Yandex operates the largest search engine in Russia with about 65 % market share in that country .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_026",
+    "fever_id": 34906,
+    "claim": "Vedam is a 2010 Indian drama film.",
+    "evidence": "Vedam_(film) 0 Vedam ( English : Chant ) is a 2010 Telugu language Indian drama film written and directed by Radhakrishna Jagarlamudi , starring Allu Arjun , Manoj Manchu , Anushka Shetty , Manoj Bajpayee , Saranya Ponvannan , Deeksha Seth , Lekha Washington , and Siya Gautham .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_066",
+    "fever_id": 64373,
+    "claim": "Liverpool is in the United States.",
+    "evidence": "Liverpool 8 Its growth as a major port was paralleled by the expansion of the city throughout the Industrial Revolution .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_068",
+    "fever_id": 89912,
+    "claim": "Lost was not on ABC.",
+    "evidence": "Lost_(TV_series) 10 The fictional universe and mythology of Lost are expanded upon by a number of related media , most importantly , a series of short mini-episodes called Missing Pieces , and a 12-minute epilogue titled `` The New Man in Charge '' .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_073",
+    "fever_id": 166506,
+    "claim": "Jason Katims has made no contributions to Roswell.",
+    "evidence": "Roswell_(TV_series) 0 Roswell is an American science fiction television series developed , produced , and co-written by Jason Katims .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_014",
+    "fever_id": 155413,
+    "claim": "Numb was in a video game's Linkin Park DLC.",
+    "evidence": "Numb_(Linkin_Park_song) 12 In January 2011 , `` Numb '' was released in a Linkin Park DLC pack for Rock Band 3 .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_087",
+    "fever_id": 174016,
+    "claim": "The Endless River is an album solely by an Indian folk band.",
+    "evidence": "The_Endless_River 0 The Endless River is the fifteenth and final studio album by the English rock band Pink Floyd .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_020",
+    "fever_id": 92439,
+    "claim": "Terry Crews was only a quarterback.",
+    "evidence": "Terry_Crews 9 In football , Crews played as a defensive end and linebacker in the National Football League ( NFL ) for the Los Angeles Rams , San Diego Chargers and Washington Redskins , as well as in the World League of American Football with Rhein Fire .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_006",
+    "fever_id": 73092,
+    "claim": "Aaron Burr was a department store that went out of business in the eighties.",
+    "evidence": "Aaron_Burr 16 In a final quest for grand opportunities , he left the United States for Europe .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_009",
+    "fever_id": 78011,
+    "claim": "John Dolmayan is only a chef.",
+    "evidence": "John_Dolmayan 3 His energetic live performances with System Of A Down over the years , have garnered him critical acclaim .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_091",
+    "fever_id": 194922,
+    "claim": "Stripes had a person appear in it.",
+    "evidence": "Stripes_(film) 1 Several actors including John Larroquette , John Diehl , Conrad Dunn and Judge Reinhold were featured in their first significant film roles .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_011",
+    "fever_id": 149051,
+    "claim": "Margaret Thatcher avoids all involvement in politics.",
+    "evidence": "Margaret_Thatcher 3 As Prime Minister , she implemented policies that have come to be known as Thatcherism .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_069",
+    "fever_id": 79208,
+    "claim": "Arizona is not a part of the United States.",
+    "evidence": "Arizona 16 Northern Arizona features forests of pine , Douglas fir , and spruce trees ; the Colorado Plateau ; some mountain ranges ( such as the San Francisco Mountains ) ; as well as large , deep canyons , with much more moderate summer temperatures and significant winter snowfalls .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_096",
+    "fever_id": 125146,
+    "claim": "The 14th Dalai Lama lives in Dubai.",
+    "evidence": "14th_Dalai_Lama 10 During the 1959 Tibetan uprising , the Dalai Lama fled to India , where he currently lives as a refugee .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_025",
+    "fever_id": 193910,
+    "claim": "Bea Arthur was born under a different name.",
+    "evidence": "Bea_Arthur 0 Bea Arthur ( born Bernice Frankel ; May 13 , 1922 -- April 25 , 2009 ) was an American actress , comedian , singer , and animal rights activist .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_s_049",
+    "fever_id": 14375,
+    "claim": "Youtube has been ranked by a company.",
+    "evidence": "YouTube 15 , the website is ranked as the second most popular site in the world by Alexa Internet , a web traffic analysis company .",
+    "ground_truth": "SUPPORTED"
+  },
+  {
+    "id": "fever_r_005",
+    "fever_id": 137842,
+    "claim": "Arizona is a mass-marketed beverage.",
+    "evidence": "Arizona 4 Arizona is one of the Four Corners states .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_r_022",
+    "fever_id": 26078,
+    "claim": "Viola Davis appeared in film and television only in the 1950s.",
+    "evidence": "Viola_Davis 14 Since 2014 , Davis has played lawyer Annalise Keating in the ABC television drama , How to Get Away with Murder , and in 2015 she became the first black woman to win the Primetime Emmy Award for Outstanding Lead Actress in a Drama Series .",
+    "ground_truth": "REFUTED"
+  },
+  {
+    "id": "fever_s_063",
+    "fever_id": 130631,
+    "claim": "Ripon College's student body stood at a number.",
+    "evidence": "Ripon_College_(Wisconsin) 3 More than 95 % of students receive financial aid .",
+    "ground_truth": "SUPPORTED"
+  }
+]
