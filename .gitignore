@@ -46,4 +46,5 @@ research/experiments/**/results/archive/
 research/experiments/**/results/figures/
 
 # --- Raporun yalnızca PDF sürümü paylaşılır ---
-docs/Akademik_Rapor.md
+Akademik_Rapor.md
+scripts/build_report_pdf.py
