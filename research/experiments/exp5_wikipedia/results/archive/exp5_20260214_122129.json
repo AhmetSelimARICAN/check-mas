@@ -1,0 +1,66 @@
+{
+  "config": {
+    "threshold": 0.25,
+    "check_mas_penalty_strength": 0.7,
+    "use_check_mas": true,
+    "use_evidence": true,
+    "seed": 42,
+    "use_mock": true
+  },
+  "cases": [
+    {
+      "id": "wiki_1",
+      "claim": "The Roman Empire fell in 1453.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": true,
+      "trust_alice": 0.009787076574596012,
+      "trust_mallory": 2.5590389271027417e-31,
+      "trust_sybil": 0.990212923425404,
+      "threshold": 0.8416809849115934,
+      "phi_alice": 0.1,
+      "phi_mallory": 0.1,
+      "phi_sybil": 1.0,
+      "final_decision": "REFUTED",
+      "correct": true
+    },
+    {
+      "id": "wiki_2",
+      "claim": "Albert Einstein failed mathematics in school.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": true,
+      "trust_alice": 1.0,
+      "trust_mallory": 0.0,
+      "trust_sybil": 0.0,
+      "threshold": 0.85,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 1.0,
+      "final_decision": "REFUTED",
+      "correct": true
+    },
+    {
+      "id": "wiki_3",
+      "claim": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+      "ground_truth": "SUPPORTED",
+      "mallory_blocked": false,
+      "trust_alice": 0.06132842310176406,
+      "trust_mallory": 0.43864815444350574,
+      "trust_sybil": 0.5000234224547302,
+      "threshold": 0.42501990908652065,
+      "phi_alice": 0.1,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": null,
+      "correct": false
+    }
+  ],
+  "summary": {
+    "n_cases": 3,
+    "block_rate": 0.6666666666666666,
+    "blocked_count": 2,
+    "accuracy": 0.6666666666666666,
+    "correct_count": 2,
+    "trust_gap_mean": 0.21082244841095144,
+    "trust_gap_std": 0.5799792100485776
+  }
+}

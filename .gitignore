@@ -40,11 +40,6 @@ WORDS/
 # Referans olarak okunan harici makale
 Proje_Normal_Gorunum.pdf
 
-# --- Deney çıktıları ---
-# Büyük çıktı arşivleri repo dışında tutulabilir
-research/experiments/**/results/archive/
-research/experiments/**/results/figures/
-
 # --- Raporun yalnızca PDF sürümü paylaşılır ---
 Akademik_Rapor.md
 scripts/build_report_pdf.py

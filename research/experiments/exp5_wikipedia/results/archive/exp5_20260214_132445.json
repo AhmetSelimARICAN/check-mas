@@ -1,0 +1,82 @@
+{
+  "config": {
+    "threshold": 0.25,
+    "check_mas_penalty_strength": 0.7,
+    "use_check_mas": true,
+    "use_evidence": true,
+    "seed": 42,
+    "use_mock": true
+  },
+  "cases": [
+    {
+      "id": "wiki_1",
+      "claim": "The Roman Empire fell in 1453.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": true,
+      "trust_alice": 0.5131922089522307,
+      "trust_mallory": 0.2423041669714767,
+      "trust_sybil": 0.24450362407629264,
+      "threshold": 0.4362133776093961,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": "REFUTED",
+      "correct": true,
+      "baseline_majority_decision": "SUPPORTED",
+      "baseline_majority_correct": false,
+      "baseline_random_decision": "SUPPORTED",
+      "baseline_random_correct": false
+    },
+    {
+      "id": "wiki_2",
+      "claim": "Albert Einstein failed mathematics in school.",
+      "ground_truth": "REFUTED",
+      "mallory_blocked": true,
+      "trust_alice": 0.8985635662400333,
+      "trust_mallory": 0.05542403174511353,
+      "trust_sybil": 0.046012402014853224,
+      "threshold": 0.7637790313040282,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": "REFUTED",
+      "correct": true,
+      "baseline_majority_decision": "SUPPORTED",
+      "baseline_majority_correct": false,
+      "baseline_random_decision": "SUPPORTED",
+      "baseline_random_correct": false
+    },
+    {
+      "id": "wiki_3",
+      "claim": "Water boils at 100 degrees Celsius at standard atmospheric pressure.",
+      "ground_truth": "SUPPORTED",
+      "mallory_blocked": false,
+      "trust_alice": 0.0,
+      "trust_mallory": 0.49779132806938564,
+      "trust_sybil": 0.5022086719306144,
+      "threshold": 0.4268773711410222,
+      "phi_alice": 1.0,
+      "phi_mallory": 0.1,
+      "phi_sybil": 0.1,
+      "final_decision": "REFUTED",
+      "correct": false,
+      "baseline_majority_decision": "REFUTED",
+      "baseline_majority_correct": false,
+      "baseline_random_decision": "REFUTED",
+      "baseline_random_correct": false
+    }
+  ],
+  "summary": {
+    "n_cases": 3,
+    "block_rate": 0.6666666666666666,
+    "blocked_count": 2,
+    "accuracy": 0.6666666666666666,
+    "correct_count": 2,
+    "trust_gap_mean": 0.20541208280209602,
+    "trust_gap_std": 0.549387064807765,
+    "baseline_majority_accuracy": 0.0,
+    "baseline_majority_correct_count": 0,
+    "baseline_random_accuracy": 0.0,
+    "baseline_random_correct_count": 0
+  }
+}
