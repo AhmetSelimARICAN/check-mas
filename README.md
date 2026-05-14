@@ -30,7 +30,7 @@ CHECK-MAS bu davranışları tespit edip ilgili ajanın oyunu sistemden düşür
 3. **Taban eşikli füzyon (P_t)** — `P_t = max(u·Φ, λ·Φ)`. Bu adım azınlıkta kalmış ama doğru söyleyen ajanın spektral olarak "ezilmesini" engelliyor. Projenin en önemli teknik katkılarından biri bu taban eşik mekanizması oldu.
 4. **Bayesyen güven güncellemesi (T)** — `T_new ∝ T_old × P_t^α`. Tur tur güven dağılımı güncellenir; eşik altında kalan ajanlar gelecek tura alınmaz.
 
-Mimarinin detayı ve matematiksel açıklamalar `research/docs/01_sistem_nasil_calisir.md` ile `docs/Akademik_Rapor.pdf` içinde.
+Mimarinin detayı ve matematiksel açıklamalar `research/docs/01_sistem_nasil_calisir.md` ile `Akademik_Rapor.pdf` içinde.
 
 ---
 
@@ -123,9 +123,8 @@ Burada kritik nokta şu: **spektral merkezilik tek başına Alice'i ezerdi** (u 
 │   ├── docs/          Türkçe analiz notları
 │   └── tests/
 │
-└── docs/
-    ├── Akademik_Rapor.md      Akademik rapor (Markdown)
-    └── Akademik_Rapor.pdf     Aynı raporun PDF sürümü
+├── SERTİFİKALAR/      Çalışma sürecinde alınan deep learning sertifikaları
+└── Akademik_Rapor.pdf Bitirme projesi raporu (PDF)
 ```
 
 Repoda yer almayanlar: `ARTICLES/` (telifli PDF makaleler), `WORDS/` (eski ders notları), `.venv/` ve API anahtarları. Bunlar `.gitignore`'da listelidir.
@@ -199,7 +198,7 @@ Her deney `results/` altında zaman damgalı bir JSON çıktısı bırakır; bun
 
 ## Elde ettiğim sonuçlar
 
-Aşağıdaki sayılar `research/experiments/exp5_wikipedia` ve `exp6_fever_academic` çıktılarına dayanıyor. Detaylı tablolar `docs/Akademik_Rapor.pdf` içinde.
+Aşağıdaki sayılar `research/experiments/exp5_wikipedia` ve `exp6_fever_academic` çıktılarına dayanıyor. Detaylı tablolar `Akademik_Rapor.pdf` içinde.
 
 **Wikipedia veri seti, 35 iddia, 2'ye 1 saldırı (Alice dürüst, Mallory + Sybil saldırgan):**
 
@@ -264,13 +263,30 @@ Genel okuma: sistem naif saldırılara karşı uçtan uca çalışıyor, sofisti
 - *Disagreement as Data: Reasoning Trace Analytics in Multi-Agent Systems*
 - *MAGPIE: Multi-Agent Contextual Privacy Evaluation*
 
-Tüm referansların ayrıntılı listesi `docs/Akademik_Rapor.pdf` içindeki kaynakçada.
+Tüm referansların ayrıntılı listesi `Akademik_Rapor.pdf` içindeki kaynakçada.
 
 ---
 
 ## Akademik rapor
 
-`docs/Akademik_Rapor.pdf` projenin bitirme dokümanıdır. Sistem mimarisini, deney tasarımlarını, sonuçları, sınırlamaları ve referansları daha uzun anlatıyor.
+`Akademik_Rapor.pdf` projenin bitirme dokümanıdır. Sistem mimarisini, deney tasarımlarını, sonuçları, sınırlamaları ve referansları daha uzun anlatıyor.
+
+---
+
+## Katkıda bulunmak
+
+Bu proje bir bitirme çalışması olarak başladı; ama çok ajanlı sistem güvenliği, prompt injection ve manipülasyon savunması başlı başına geniş bir alan. Tek kişilik bir çalışmayla kapsanması mümkün değil. Konuya ilgi duyan, deneyim sahibi ya da fikir paylaşmak isteyen herkesin katkısı bu projenin önümüzdeki sürümlerinin daha güçlü olmasını sağlayacaktır.
+
+Aşağıdaki başlıklarda katkı bekliyorum:
+
+- Farklı dil modelleri (Claude, Llama, Gemini, Mistral vb.) üzerinde sistemin denenmesi ve sonuçların paylaşılması
+- Yeni saldırı senaryoları, özellikle uyarlanabilir (adaptive) saldırganlar
+- Daha büyük veri setleri ve çoklu seed ile değerlendirme
+- Hiyerarşik Komutan, alt-grup tartışmaları gibi ölçek mimarileri
+- Literatürden eklenmesi gereken referanslar veya kıyas çalışmaları
+- Bulunan hatalar, kırılım noktaları ve iyileştirme önerileri
+
+Doğrudan **issue** açabilir ya da **pull request** gönderebilirsin. Her türlü geri bildirim, öneri ve eleştiri sayesinde proje hem akademik hem de uygulama tarafında büyüyebilir.
 
 ---
 
