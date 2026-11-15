@@ -287,6 +287,8 @@ Aşağıdaki başlıklarda katkı bekliyorum:
 
 Doğrudan **issue** açabilir ya da **pull request** gönderebilirsin. Her türlü geri bildirim, öneri ve eleştiri sayesinde proje hem akademik hem de uygulama tarafında büyüyebilir.
 
+https://claude.ai/artifact/SY3mwR2eqPY4kcnx6xytGC
+
 ---
 
 ## Lisans
